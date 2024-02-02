@@ -14,7 +14,7 @@ public class Examen {
     private Patient patient;
     private String idExam;
     private Professionnel professionnel;
-    private CR cr;
+    private String cr;
     private List<Image> images;
     private Date date;
     private String type;
@@ -38,7 +38,7 @@ public class Examen {
         return professionnel;
     }
 
-    public CR getCr() {
+    public String getCr() {
         return cr;
     }
 

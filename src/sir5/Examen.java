@@ -26,12 +26,24 @@ public class Examen {
         this.type = type;
     }
 
+    public Patient getPatient() {
+        return patient;
+    }
+
     public String getIdExam() {
         return idExam;
     }
 
-    public PHrespo PHrespo() {
-        return PHrespo
+    public String getPHrespo() {
+        return PHrespo;
+    }
+
+    public CR getCr() {
+        return cr;
+    }
+
+    public <any> getImages() {
+        return images;
     }
 
     public Date getDate() {
@@ -40,6 +52,34 @@ public class Examen {
 
     public String getType() {
         return type;
+    }
+
+    public void setPatient(Patient patient) {
+        this.patient = patient;
+    }
+
+    public void setIdExam(String idExam) {
+        this.idExam = idExam;
+    }
+
+    public void setPHrespo(String PHrespo) {
+        this.PHrespo = PHrespo;
+    }
+
+    public void setCr(CR cr) {
+        this.cr = cr;
+    }
+
+    public void setImages(<any>  images) {
+        this.images = images;
+    }
+
+    public void setDate(Date date) {
+        this.date = date;
+    }
+
+    public void setType(String type) {
+        this.type = type;
     }
 
 }

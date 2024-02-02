@@ -51,4 +51,33 @@ public class Patient {
         return adresse;
     }
 
+    public void setIdPatient(int idPatient) {
+        this.idPatient = idPatient;
+    }
+
+    public void setNomDeNaissance(String nomDeNaissance) {
+        this.nomDeNaissance = nomDeNaissance;
+    }
+
+    public void setPrenom(String prenom) {
+        this.prenom = prenom;
+    }
+
+    public void setDateDeNaissance(Date dateDeNaissance) {
+        this.dateDeNaissance = dateDeNaissance;
+    }
+
+    public void setAdresse(String adresse) {
+        this.adresse = adresse;
+    }
+
+    public void setSexe(String sexe) {
+        this.sexe = sexe;
+    }
+
+    
+    
+    
+    
+    
 }

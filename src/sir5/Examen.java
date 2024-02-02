@@ -38,10 +38,6 @@ public class Examen {
         return date;
     }
 
-    public String getIdPatient() {
-        return idPatient;
-    }
-
     public String getType() {
         return type;
     }

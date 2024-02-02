@@ -38,10 +38,6 @@ public class Examen {
         return date;
     }
 
-    public String getIdCPS() {
-        return idCPS;
-    }
-
     public String getIdPatient() {
         return idPatient;
     }

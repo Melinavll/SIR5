@@ -22,7 +22,7 @@ public class Patient {
     private String adresse;
     private String sexe;
 
-    public Patient(int idPatient, String nomDeNaissance, String prenom, Date dateNaissance, String sexe, String adresse) {
+    public Patient(int idPatient, String nomDeNaissance, String prenom, Calendar dateNaissance, String sexe, String adresse) {
         this.idPatient = idPatient;
         this.nomDeNaissance = nomDeNaissance;
         this.prenom = prenom;
@@ -47,7 +47,7 @@ public class Patient {
         return sexe;
     }
 
-    public Date getDateDeNaissance() {
+    public Calendar getDateDeNaissance() {
         return dateDeNaissance;
     }
 
@@ -67,7 +67,7 @@ public class Patient {
         this.prenom = prenom;
     }
 
-    public void setDateDeNaissance(Date dateDeNaissance) {
+    public void setDateDeNaissance(Calendar dateDeNaissance) {
         this.dateDeNaissance = dateDeNaissance;
     }
 
@@ -77,11 +77,5 @@ public class Patient {
 
     public void setSexe(String sexe) {
         this.sexe = sexe;
-    }
-
-    
-    
-    
-    
-    
+    }       
 }

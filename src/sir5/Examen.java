@@ -13,7 +13,7 @@ public class Examen {
 
     private Patient patient;
     private String idExam;
-    private String PHrespo;
+    private Professionnel professionnel;
     private CR cr;
     private List<Image> images;
     private Date date;
@@ -21,7 +21,7 @@ public class Examen {
 
     public Examen(String idExam, String PHrespo, Date date, String type) {
         this.idExam = idExam;
-        this.PHrespo = PHrespo;
+        this.professionnel = professionnel;
         this.date = date;
         this.type = type;
     }
@@ -34,8 +34,8 @@ public class Examen {
         return idExam;
     }
 
-    public String getPHrespo() {
-        return PHrespo;
+    public Professionnel professionnel () {
+        return professionnel;
     }
 
     public CR getCr() {

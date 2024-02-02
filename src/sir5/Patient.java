@@ -5,16 +5,20 @@
  */
 package sir5;
 
+import java.util.Calendar;
+
 /**
  *
  * @author agnesvolant
  */
 public class Patient {
+    
+    
 
     private int idPatient;
     private String nomDeNaissance;
     private String prenom;
-    private Date dateDeNaissance;
+    private Calendar dateDeNaissance;
     private String adresse;
     private String sexe;
 

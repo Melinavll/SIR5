@@ -5,6 +5,8 @@
  */
 package sir5;
 
+import java.util.Calendar;
+
 /**
  *
  * @author agnesvolant
@@ -16,7 +18,7 @@ public class Examen {
     private Professionnel professionnel;
     private String cr;
     private List<Image> images;
-    private Date date;
+    private Calendar date;
     private String type;
 
     public Examen(String idExam, String PHrespo, Date date, String type) {

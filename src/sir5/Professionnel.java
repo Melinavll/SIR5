@@ -9,18 +9,24 @@ package sir5;
  * @author evabr
  */
 public class Professionnel {
+    public enum Profession {
+        PH, 
+        SECRETAIRE,
+        MR;
+    }
     
     private String nom;
     private String prenom;
     private String identifiant;
     private String mdp;
-    
+    private Profession profession;
 
-    public Professionnel(String nom, String prenom, String identifiant, String mdp) {
+    public Professionnel(String nom, String prenom, String identifiant, String mdp, Profession profession) {
         this.nom = nom;
         this.prenom = prenom;
         this.identifiant = identifiant;
         this.mdp = mdp;
+        this.profession = profession;
     }
 
     public String getNom() {
@@ -42,6 +48,10 @@ public class Professionnel {
     public String getIdentifiant() {
         return identifiant;
     }
+    
+ public Profession getProfession() {
+        return profession;
+    }
 
     public void setIdentifiant(String identifiant) {
         this.identifiant = identifiant;
@@ -55,4 +65,7 @@ public class Professionnel {
         this.mdp = mdp;
     }
     
+     public void setProfession(Profession profession) {
+        this.profession = profession;
+    }
 }

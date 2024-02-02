@@ -17,8 +17,7 @@ public class SIR5 {
         // TODO code application logic here
         //coucou
         
-        sabah ferme là
-                holà
+       
     }
     
 }

@@ -1,0 +1,10 @@
+################################################
+# Database access properties
+################################################
+# JDBC driver
+jdbc.driver = oracle.jdbc.driver.OracleDriver
+# Databse URL
+database.url = jdbc:oracle:thin:@im2ag-oracle.univ-grenoble-alpes.fr:1521:im2ag
+# Username and password to access the database 
+database.username = bulants 
+database.password = 1b9238fda4

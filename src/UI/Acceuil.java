@@ -50,7 +50,7 @@ public class Acceuil extends javax.swing.JFrame {
         });
 
         jButton3.setBackground(new java.awt.Color(143, 173, 233));
-        jButton3.setIcon(new javax.swing.ImageIcon("/Users/melina/Documents/Projet SIR/bouton_retour-removebg-preview.png")); // NOI18N
+        jButton3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/bouton_retour-removebg-preview.png"))); // NOI18N
         jButton3.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
 
         jPanel2.setBackground(new java.awt.Color(143, 173, 233));
@@ -80,7 +80,7 @@ public class Acceuil extends javax.swing.JFrame {
         });
 
         jButton2.setBackground(new java.awt.Color(143, 173, 233));
-        jButton2.setIcon(new javax.swing.ImageIcon("/Users/melina/Documents/Projet SIR/ajout_personne-sansfond.png")); // NOI18N
+        jButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/ajout_personne-sansfond.png"))); // NOI18N
         jButton2.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -89,7 +89,7 @@ public class Acceuil extends javax.swing.JFrame {
         });
 
         jButton4.setBackground(new java.awt.Color(143, 173, 233));
-        jButton4.setIcon(new javax.swing.ImageIcon("/Users/melina/Documents/Projet SIR/rechercher-snsfond.png")); // NOI18N
+        jButton4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/rechercher-snsfond.png"))); // NOI18N
         jButton4.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
 
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
@@ -125,7 +125,7 @@ public class Acceuil extends javax.swing.JFrame {
                 .addContainerGap())
         );
 
-        jLabel2.setIcon(new javax.swing.ImageIcon("/Users/melina/Documents/Projet SIR/logo_bleu-interface.png")); // NOI18N
+        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/logo_bleu-interface.png"))); // NOI18N
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
@@ -146,7 +146,7 @@ public class Acceuil extends javax.swing.JFrame {
                         .addComponent(jLabel2)
                         .addContainerGap())))
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
-                .addContainerGap(29, Short.MAX_VALUE)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(24, 24, 24))
         );

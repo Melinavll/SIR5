@@ -245,14 +245,14 @@
         <Component class="javax.swing.JLabel" name="jLabel1">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="/Users/melina/Documents/Projet SIR/logo_bleu-interface.png"/>
+              <Image iconType="3" name="/images/logo_bleu-interface.png"/>
             </Property>
           </Properties>
         </Component>
         <Component class="javax.swing.JLabel" name="jLabel4">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="/Users/melina/Documents/Projet SIR/LOGO-removebg-preview.png"/>
+              <Image iconType="3" name="/images/LOGO-removebg-preview.png"/>
             </Property>
           </Properties>
         </Component>
